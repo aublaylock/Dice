@@ -77,6 +77,7 @@ public class Die //models one single die
       fill(255,255,255);
       rect(x-95, y-95, 190, 190);
       fill(0, 0, 0);
+      translate(0,0,1);
       for (int a = 0; a<3; a++) {
         for (int b = 0; b<3; b++) {
           if (dots[a][b]) {
